@@ -14,3 +14,4 @@ add_message_files(
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
 catkin_package(CATKIN_DEPENDS message_runtime std_msgs geometry_msgs)
+add_dependencies(lino_msgs lino_msgs_generate_messages_cpp)
